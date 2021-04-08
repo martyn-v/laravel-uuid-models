@@ -73,7 +73,7 @@ class UuidModelTest extends TestCase
     }
 
     public function testModelCanSetUuidV4() {
-        Config::set('laravel-uuid-models.version', '1');
+        Config::set('laravel-uuid-models.version', '4');
         $model = $this->testsModel::create();
 
         $uuidV4Regex = '/[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[0-9a-f]{4}-[0-9a-f]{12}|[0-9a-f]{12}4[0-9a-f]{19}/i';
