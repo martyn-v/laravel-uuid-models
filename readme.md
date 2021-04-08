@@ -4,7 +4,7 @@
 
 [comment]: <> ([![Total Downloads][ico-downloads]][link-downloads])
 [![Build Status][ico-github-actions]][link-github-actions]
-[![Coverage][ico-coverage]][link-coverage]
+[![Coverage Status][ico-coverage]][link-coverage]
 
 [comment]: <> ([![StyleCI][ico-styleci]][link-styleci])
 
@@ -50,12 +50,12 @@ MIT. Please see the [license file](LICENSE) for more information.
 [ico-downloads]: https://img.shields.io/packagist/dt/martynv/laravel-uuid-models.svg?style=flat-square
 [ico-github-actions]: https://github.com/martyn-v/laravel-uuid-models/actions/workflows/php.yml/badge.svg?branch=main
 [ico-styleci]: https://styleci.io/repos/12345678/shield
-[ico-coverage]: coverage_badge.svg
+[ico-coverage]: https://coveralls.io/repos/github/martyn-v/laravel-uuid-models/badge.svg?branch=main
 
 [link-packagist]: https://packagist.org/packages/martynv/laravel-uuid-models
 [link-downloads]: https://packagist.org/packages/martynv/laravel-uuid-models
 [link-github-actions]: https://github.com/martyn-v/laravel-uuid-models/actions/workflows/php.yml
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/martyn-v
-[link-coverage]: clover.xml
+[link-coverage]: https://coveralls.io/github/martyn-v/laravel-uuid-models?branch=main
 
