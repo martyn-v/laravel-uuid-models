@@ -1,4 +1,4 @@
-# LaravelUuidModels
+# Laravel Uuid Models
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -37,12 +37,11 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
-- [All Contributors][link-contributors]
+- [martynv][link-author]
 
 ## License
 
-license. Please see the [license file](license.md) for more information.
+MIT. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/martynv/laravel-uuid-models.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/martynv/laravel-uuid-models.svg?style=flat-square
@@ -53,5 +52,5 @@ license. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/martynv/laravel-uuid-models
 [link-travis]: https://travis-ci.org/martynv/laravel-uuid-models
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/martynv
-[link-contributors]: ../../contributors
+[link-author]: https://github.com/martyn-v
+
