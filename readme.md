@@ -1,9 +1,11 @@
 # Laravel Uuid Models
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
+[comment]: <> ([![Latest Version on Packagist][ico-version]][link-packagist])
+
+[comment]: <> ([![Total Downloads][ico-downloads]][link-downloads])
+[![Build Status][ico-github-actions]][link-github-actions]
+
+[comment]: <> ([![StyleCI][ico-styleci]][link-styleci])
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
 
@@ -45,12 +47,12 @@ MIT. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/martynv/laravel-uuid-models.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/martynv/laravel-uuid-models.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/martynv/laravel-uuid-models/master.svg?style=flat-square
+[ico-github-actions]: https://github.com/martyn-v/laravel-uuid-models/actions/workflows/php.yml/badge.svg?branch=main
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
 [link-packagist]: https://packagist.org/packages/martynv/laravel-uuid-models
 [link-downloads]: https://packagist.org/packages/martynv/laravel-uuid-models
-[link-travis]: https://travis-ci.org/martynv/laravel-uuid-models
+[link-github-actions]: https://github.com/martyn-v/laravel-uuid-models/actions/workflows/php.yml
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/martyn-v
 
