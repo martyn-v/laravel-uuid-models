@@ -9,7 +9,7 @@
         </include>
         <report>
             <text  outputFile="php://stdout" showOnlySummary="false"/>
-            <clover outputFile="clover.xml" />
+            <clover outputFile="build/logs/clover.xml" />
         </report>
         <exclude>
             <file>./src/LaravelUuidModelsServiceProvider.php</file>

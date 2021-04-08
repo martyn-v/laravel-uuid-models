@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1617874622">
+  <project timestamp="1617874622">
+    <file name="/home/vagrant/code/updo-server/packages/martynv/laravel-uuid-models/src/Models/UuidModel.php">
+      <class name="Martynv\LaravelUuidModels\Models\UuidModel" namespace="global">
+        <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+      </class>
+      <line num="37" type="method" name="boot" visibility="protected" complexity="3" crap="3" count="18"/>
+      <line num="39" type="stmt" count="18"/>
+      <line num="41" type="stmt" count="18"/>
+      <line num="42" type="stmt" count="18"/>
+      <line num="44" type="stmt" count="16"/>
+      <line num="45" type="stmt" count="14"/>
+      <line num="47" type="stmt" count="18"/>
+      <line num="49" type="stmt" count="18"/>
+      <line num="56" type="method" name="createUuid" visibility="private" complexity="1" crap="1" count="14"/>
+      <line num="58" type="stmt" count="14"/>
+      <line num="62" type="stmt" count="14"/>
+      <line num="63" type="stmt" count="14"/>
+      <metrics loc="68" ncloc="40" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+    </file>
+    <file name="/home/vagrant/code/updo-server/packages/martynv/laravel-uuid-models/src/Models/UuidUserModel.php">
+      <class name="Martynv\LaravelUuidModels\Models\UuidUserModel" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="35" ncloc="21" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="103" ncloc="61" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+  </project>
+</coverage>
