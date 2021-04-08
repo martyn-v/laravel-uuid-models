@@ -31,3 +31,15 @@ jobs:
 
     - name: Run test suite
       run: composer test
+    - name: Check test coverage
+      id: test-coverage
+      uses: johanvanhelden/gha-clover-test-coverage-check@v1
+      with:
+        percentage: "95"
+        filename: "coverage.xml"
+    - name: phpunit-coverage-badge
+      uses: timkrase/phpunit-coverage-badge@v1.2.0
+      with:
+        push_badge: true
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+
