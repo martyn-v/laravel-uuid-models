@@ -3,6 +3,9 @@
          backupStaticAttributes="false" colors="true" verbose="true" convertErrorsToExceptions="true"
          convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false"
          stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+    <logging>
+        <junit outputFile="build/logs/junit.xml"/>
+    </logging>
     <coverage>
         <include>
             <directory>src/</directory>

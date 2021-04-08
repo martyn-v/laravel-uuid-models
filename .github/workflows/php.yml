@@ -31,12 +31,20 @@ jobs:
 
     - name: Run test suite
       run: composer test
+
+    - name: Publish Unit Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v1
+      if: always()
+      with:
+        files: build/logs/junit.xml
+
     - name: Check test coverage
       id: test-coverage
       uses: johanvanhelden/gha-clover-test-coverage-check@v1
       with:
         percentage: "95"
         filename: "build/logs/clover.xml"
+
     - name: Upload coverage results to Coveralls
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
